@@ -7,5 +7,5 @@ PassPercent ← 100×(+´65⊸≤)÷≠
 PassPercent 25‿90‿100‿64‿65
 
 # 4
-ParensBalanced ← ¬·(⊑¯1⊸∊∨⊑∘⌽)·+`('('⊸=-')'⊸=)
+ParensBalanced ← ¬·(⊑¯1⊸∊∨0⊸≠∘⊑∘⌽)·+`('('⊸=-')'⊸=)
 ParensBalanced "((2×3)+4)"
